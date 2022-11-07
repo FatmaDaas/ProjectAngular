@@ -3,7 +3,7 @@
   docker_image:
    name: devops
    build: 
-    path: /var/lib/jenkins/workspace/Test
+    path: /var/lib/jenkins/workspace/LC-Pipeline
     pull: no
    source: build
    state: present
