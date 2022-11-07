@@ -5,7 +5,7 @@ pipeline{
        stage('Pull'){
             steps{
                 script{
-                    checkout   ([$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[url: 'https://github.com/firas999/AngulaProject.git']]])
+                    checkout   ([$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[url: 'https://github.com/FatmaDaas/ProjectAngular.git']]])
                     sh " npm install "
                 }
 
